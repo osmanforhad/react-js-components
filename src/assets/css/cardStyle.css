@@ -1,0 +1,35 @@
+.card-bg-style {
+  background-color: rgb(77, 75, 74);
+}
+.card-image-style {
+  height: 191px;
+  border: 2px silver;
+  border-radius: 7px;
+}
+.card-image-style:hover {
+  height: 191px;
+  border: 2px silver;
+  border-radius: 7px;
+  zoom: 101%;
+  position: inherit;
+  cursor: pointer;
+}
+.card-title-style {
+  text-align: center;
+  color: burlywood;
+}
+.card-description-indicator-style {
+  color: rgb(122, 134, 134);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+}
+.card-description-text-style {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+.card-body-style {
+  background-color: rgba(129, 128, 127, 0.747);
+  border: 2px silver;
+  border-radius: 5px 20px;
+}

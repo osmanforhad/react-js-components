@@ -1,0 +1,38 @@
+.App {
+  background-color: rgb(245, 242, 237);
+}
+.hyper-link-style {
+  text-decoration: none;
+  color: burlywood;
+}
+.hyper-link-style:hover {
+  color: rgb(122, 134, 134);
+  font-size: 18px;
+  zoom: 101%;
+  cursor: pointer;
+}
+.horizontal-divider-style {
+  color: rgb(122, 134, 134);
+  padding: 7px;
+}
+.item-title-list-style {
+  text-align: center;
+  color: burlywood;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+}
+
+.item-list-style {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+}
+.item-style {
+  color: rgb(122, 134, 134);
+}
+.item-style:hover {
+  color: rgb(122, 134, 134);
+  zoom: 101%;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
