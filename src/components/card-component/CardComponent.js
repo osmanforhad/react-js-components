@@ -13,7 +13,7 @@ class CardComponent extends Component {
     return (
       <Fragment>
         <Container fluid={true}>
-          <Row>
+          <Row className="mt-1">
             <Col xl={3} lg={3} md={3} sm={12} xs={12}>
               <Card style={{ width: "18rem" }} className="card-bg-style">
                 <Card.Img
@@ -39,19 +39,19 @@ class CardComponent extends Component {
                 <ListGroup className="list-group-flush item-list-style">
                   <ListGroupItem variant="success" className="item-style">
                     <span name="list-item">
-                      <i class="fas fa-hand-point-right"></i>
+                      <i className="fas fa-hand-point-right"></i>
                       Al-Manar Group
                     </span>
                   </ListGroupItem>
                   <ListGroupItem variant="secondary" className="item-style">
                     <span name="list-item">
-                      <i class="fas fa-hand-point-right"></i>
+                      <i className="fas fa-hand-point-right"></i>
                       Family Food
                     </span>
                   </ListGroupItem>
                   <ListGroupItem variant="success" className="item-style">
                     <span name="list-item">
-                      <i class="fas fa-hand-point-right"></i>
+                      <i className="fas fa-hand-point-right"></i>
                       Intigsol Limited
                     </span>
                   </ListGroupItem>
@@ -98,19 +98,19 @@ class CardComponent extends Component {
                 <ListGroup className="list-group-flush item-list-style">
                   <ListGroupItem variant="success" className="item-style">
                     <span name="list-item">
-                      <i class="fas fa-hand-point-right"></i>
+                      <i className="fas fa-hand-point-right"></i>
                       Al-Manar Group
                     </span>
                   </ListGroupItem>
                   <ListGroupItem variant="secondary" className="item-style">
                     <span name="list-item">
-                      <i class="fas fa-hand-point-right"></i>
+                      <i className="fas fa-hand-point-right"></i>
                       Family Food
                     </span>
                   </ListGroupItem>
                   <ListGroupItem variant="success" className="item-style">
                     <span name="list-item">
-                      <i class="fas fa-hand-point-right"></i>
+                      <i className="fas fa-hand-point-right"></i>
                       Intigsol Limited
                     </span>
                   </ListGroupItem>
@@ -157,19 +157,19 @@ class CardComponent extends Component {
                 <ListGroup className="list-group-flush item-list-style">
                   <ListGroupItem variant="success" className="item-style">
                     <span name="list-item">
-                      <i class="fas fa-hand-point-right"></i>
+                      <i className="fas fa-hand-point-right"></i>
                       Al-Manar Group
                     </span>
                   </ListGroupItem>
                   <ListGroupItem variant="secondary" className="item-style">
                     <span name="list-item">
-                      <i class="fas fa-hand-point-right"></i>
+                      <i className="fas fa-hand-point-right"></i>
                       Family Food
                     </span>
                   </ListGroupItem>
                   <ListGroupItem variant="success" className="item-style">
                     <span name="list-item">
-                      <i class="fas fa-hand-point-right"></i>
+                      <i className="fas fa-hand-point-right"></i>
                       Intigsol Limited
                     </span>
                   </ListGroupItem>
@@ -216,19 +216,19 @@ class CardComponent extends Component {
                 <ListGroup className="list-group-flush item-list-style">
                   <ListGroupItem variant="success" className="item-style">
                     <span name="list-item">
-                      <i class="fas fa-hand-point-right"></i>
+                      <i className="fas fa-hand-point-right"></i>
                       Al-Manar Group
                     </span>
                   </ListGroupItem>
                   <ListGroupItem variant="secondary" className="item-style">
                     <span name="list-item">
-                      <i class="fas fa-hand-point-right"></i>
+                      <i className="fas fa-hand-point-right"></i>
                       Family Food
                     </span>
                   </ListGroupItem>
                   <ListGroupItem variant="success" className="item-style">
                     <span name="list-item">
-                      <i class="fas fa-hand-point-right"></i>
+                      <i className="fas fa-hand-point-right"></i>
                       Intigsol Limited
                     </span>
                   </ListGroupItem>
