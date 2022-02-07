@@ -49,6 +49,9 @@ class Navigation extends Component {
                   <NavDropdown.Item as={Link} to="/success-alert">
                     Success Alert
                   </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/bred-crumb">
+                    Breadcrumb
+                  </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>Something else here</NavDropdown.Item>
                 </NavDropdown>
