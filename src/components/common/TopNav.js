@@ -13,6 +13,7 @@ import Figurecomponent from "../figure-component/FigureComponent";
 import Listcomponent from "../list-component/ListComponent";
 import Modalcomponent from "../modal-component/ModalComponent";
 import Navigation from "../navigation/Navigation";
+import Tablecomponent from "../table-component/TableComponent";
 
 class TopNav extends Component {
   render() {
@@ -36,6 +37,7 @@ class TopNav extends Component {
             <Route path="/figure" element={<Figurecomponent />} />
             <Route path="/list" element={<Listcomponent />} />
             <Route path="/modal" element={<Modalcomponent />} />
+            <Route path="/table-component" element={<Tablecomponent />} />
           </Routes>
         </Router>
       </Fragment>
