@@ -11,6 +11,7 @@ import Offcanvas from "../card-component/OffCanvas";
 import CarousalComponent from "../carousal-component/CarousalComponent";
 import Figurecomponent from "../figure-component/FigureComponent";
 import Listcomponent from "../list-component/ListComponent";
+import Modalcomponent from "../modal-component/ModalComponent";
 import Navigation from "../navigation/Navigation";
 
 class TopNav extends Component {
@@ -34,6 +35,7 @@ class TopNav extends Component {
             <Route path="/carousal" element={<CarousalComponent />} />
             <Route path="/figure" element={<Figurecomponent />} />
             <Route path="/list" element={<Listcomponent />} />
+            <Route path="/modal" element={<Modalcomponent />} />
           </Routes>
         </Router>
       </Fragment>
