@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from "react";
 import { Button, Col, Container, Offcanvas, Row } from "react-bootstrap";
-import { render } from "react-dom";
 
 function OffCanvasExample({ name, ...props }) {
   const [show, setShow] = useState(false);
