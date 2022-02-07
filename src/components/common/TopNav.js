@@ -10,6 +10,7 @@ import CardComponent from "../card-component/CardComponent";
 import Offcanvas from "../card-component/OffCanvas";
 import CarousalComponent from "../carousal-component/CarousalComponent";
 import Figurecomponent from "../figure-component/FigureComponent";
+import Listcomponent from "../list-component/ListComponent";
 import Navigation from "../navigation/Navigation";
 
 class TopNav extends Component {
@@ -32,6 +33,7 @@ class TopNav extends Component {
             <Route path="/bred-crumb" element={<BreadcrumbComponent />} />
             <Route path="/carousal" element={<CarousalComponent />} />
             <Route path="/figure" element={<Figurecomponent />} />
+            <Route path="/list" element={<Listcomponent />} />
           </Routes>
         </Router>
       </Fragment>
