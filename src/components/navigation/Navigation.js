@@ -52,6 +52,9 @@ class Navigation extends Component {
                   <NavDropdown.Item as={Link} to="/bred-crumb">
                     Breadcrumb
                   </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/carousal">
+                    Carousal Component
+                  </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>Something else here</NavDropdown.Item>
                 </NavDropdown>

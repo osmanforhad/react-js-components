@@ -8,6 +8,7 @@ import Bandagecomponent from "../badage-component/BandageComponent";
 import BreadcrumbComponent from "../breadcrumb-component/BreadcrumbComponent";
 import CardComponent from "../card-component/CardComponent";
 import Offcanvas from "../card-component/OffCanvas";
+import CarousalComponent from "../carousal-component/CarousalComponent";
 import Navigation from "../navigation/Navigation";
 
 class TopNav extends Component {
@@ -28,6 +29,7 @@ class TopNav extends Component {
             />
             <Route path="/success-alert" element={<Successalertcomponent />} />
             <Route path="/bred-crumb" element={<BreadcrumbComponent />} />
+            <Route path="/carousal" element={<CarousalComponent />} />
           </Routes>
         </Router>
       </Fragment>
