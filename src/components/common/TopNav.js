@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../../pages/Home";
 import AcordionComponent from "../accordion-component/AcordionComponent";
 import AlertComponentasWarning from "../alert-component/AlertComponentasWarning";
+import Successalertcomponent from "../alert-component/SuccessAlertComponent";
 import Bandagecomponent from "../badage-component/BandageComponent";
 import CardComponent from "../card-component/CardComponent";
 import Offcanvas from "../card-component/OffCanvas";
@@ -24,6 +25,7 @@ class TopNav extends Component {
               path="/warning-alert"
               element={<AlertComponentasWarning />}
             />
+            <Route path="/success-alert" element={<Successalertcomponent />} />
           </Routes>
         </Router>
       </Fragment>
