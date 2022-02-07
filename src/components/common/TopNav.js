@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../../pages/Home";
 import AcordionComponent from "../accordion-component/AcordionComponent";
+import AlertComponentasWarning from "../alert-component/AlertComponentasWarning";
 import Bandagecomponent from "../badage-component/BandageComponent";
 import CardComponent from "../card-component/CardComponent";
 import Offcanvas from "../card-component/OffCanvas";
@@ -19,6 +20,10 @@ class TopNav extends Component {
             <Route path="off-canvas" element={<Offcanvas />} />
             <Route path="acordion" element={<AcordionComponent />} />
             <Route path="/badage" element={<Bandagecomponent />} />
+            <Route
+              path="/warning-alert"
+              element={<AlertComponentasWarning />}
+            />
           </Routes>
         </Router>
       </Fragment>
