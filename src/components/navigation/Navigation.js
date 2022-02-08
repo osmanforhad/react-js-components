@@ -55,6 +55,10 @@ class Navigation extends Component {
                     Carousal Component
                   </NavDropdown.Item>
 
+                  <NavDropdown.Item as={Link} to="/figure">
+                    Figure Box
+                  </NavDropdown.Item>
+
                   <NavDropdown.Divider />
                   <NavDropdown.Item>Something else here</NavDropdown.Item>
                 </NavDropdown>
