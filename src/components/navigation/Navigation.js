@@ -37,6 +37,9 @@ class Navigation extends Component {
                   <NavDropdown.Item as={Link} to="/off-canvas">
                     Off Canvas
                   </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/acordion">
+                    Accordion
+                  </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>Something else here</NavDropdown.Item>
                 </NavDropdown>
