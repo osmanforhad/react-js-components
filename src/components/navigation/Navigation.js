@@ -40,9 +40,6 @@ class Navigation extends Component {
                   <NavDropdown.Item as={Link} to="/spinner">
                     Spinner Component
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/form">
-                    Form Component
-                  </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>Something else here</NavDropdown.Item>
                 </NavDropdown>
