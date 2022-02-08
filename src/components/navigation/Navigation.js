@@ -33,7 +33,9 @@ class Navigation extends Component {
                   <NavDropdown.Item as={Link} to="/card-component">
                     Card Component
                   </NavDropdown.Item>
-
+                  <NavDropdown.Item as={Link} to="/table-component">
+                    Table Component
+                  </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/off-canvas">
                     Off Canvas
                   </NavDropdown.Item>
