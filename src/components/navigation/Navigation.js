@@ -61,7 +61,9 @@ class Navigation extends Component {
                   <NavDropdown.Item as={Link} to="/list">
                     List Component
                   </NavDropdown.Item>
-
+                  <NavDropdown.Item as={Link} to="/modal">
+                    Modal Component
+                  </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>Something else here</NavDropdown.Item>
                 </NavDropdown>

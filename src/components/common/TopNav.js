@@ -9,6 +9,9 @@ import BreadcrumbComponent from "../breadcrumb-component/BreadcrumbComponent";
 import CardComponent from "../card-component/CardComponent";
 import Offcanvas from "../offcanvas-component/OffCanvas";
 import CarousalComponent from "../carousal-component/CarousalComponent";
+import Figurecomponent from "../figure-component/FigureComponent";
+import Listcomponent from "../list-component/ListComponent";
+import Modalcomponent from "../modal-component/ModalComponent";
 import Navigation from "../navigation/Navigation";
 import FigureComponent from "../figure-component/FigureComponent";
 import ListComponent from "../list-component/ListComponent";
@@ -32,9 +35,9 @@ class TopNav extends Component {
             <Route path="/success-alert" element={<Successalertcomponent />} />
             <Route path="/bred-crumb" element={<BreadcrumbComponent />} />
             <Route path="/carousal" element={<CarousalComponent />} />
-
-            <Route path="/figure" element={<FigureComponent />} />
-            <Route path="/list" element={<ListComponent />} />
+            <Route path="/figure" element={<Figurecomponent />} />
+            <Route path="/list" element={<Listcomponent />} />
+            <Route path="/modal" element={<Modalcomponent />} />
           </Routes>
         </Router>
       </Fragment>
