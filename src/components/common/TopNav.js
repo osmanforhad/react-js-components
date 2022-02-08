@@ -18,6 +18,7 @@ import ListComponent from "../list-component/ListComponent";
 import Horizontaltab from "../tab-component/HorizontalTab";
 import VerticalTab from "../tab-component/VerticalTab";
 import Tablecomponent from "../table-component/TableComponent";
+import TooltipComponent from "../tooltip-component/TooltipComponent";
 
 class TopNav extends Component {
   render() {
@@ -44,6 +45,7 @@ class TopNav extends Component {
             <Route path="/table-component" element={<Tablecomponent />} />
             <Route path="/horizontal-tab" element={<Horizontaltab />} />
             <Route path="/vertical-tab" element={<VerticalTab />} />
+            <Route path="/tooltip" element={<TooltipComponent />} />
           </Routes>
         </Router>
       </Fragment>
