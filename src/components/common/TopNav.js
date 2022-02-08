@@ -11,6 +11,7 @@ import Offcanvas from "../offcanvas-component/OffCanvas";
 import CarousalComponent from "../carousal-component/CarousalComponent";
 import Navigation from "../navigation/Navigation";
 import FigureComponent from "../figure-component/FigureComponent";
+import ListComponent from "../list-component/ListComponent";
 
 class TopNav extends Component {
   render() {
@@ -31,7 +32,9 @@ class TopNav extends Component {
             <Route path="/success-alert" element={<Successalertcomponent />} />
             <Route path="/bred-crumb" element={<BreadcrumbComponent />} />
             <Route path="/carousal" element={<CarousalComponent />} />
+
             <Route path="/figure" element={<FigureComponent />} />
+            <Route path="/list" element={<ListComponent />} />
           </Routes>
         </Router>
       </Fragment>
