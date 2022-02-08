@@ -40,6 +40,12 @@ class Navigation extends Component {
                   <NavDropdown.Item as={Link} to="/acordion">
                     Accordion
                   </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/warning-alert">
+                    Warning Alert
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/success-alert">
+                    Success Alert
+                  </NavDropdown.Item>
 
                   <NavDropdown.Divider />
                   <NavDropdown.Item>Something else here</NavDropdown.Item>
