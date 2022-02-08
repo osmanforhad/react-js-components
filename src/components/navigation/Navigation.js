@@ -36,6 +36,12 @@ class Navigation extends Component {
                   <NavDropdown.Item as={Link} to="/table-component">
                     Table Component
                   </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/horizontal-tab">
+                    Horizontal Tab
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/vertical-tab">
+                    Vertical Tab
+                  </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/off-canvas">
                     Off Canvas
                   </NavDropdown.Item>

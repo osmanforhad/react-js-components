@@ -15,6 +15,8 @@ import Modalcomponent from "../modal-component/ModalComponent";
 import Navigation from "../navigation/Navigation";
 import FigureComponent from "../figure-component/FigureComponent";
 import ListComponent from "../list-component/ListComponent";
+import Horizontaltab from "../tab-component/HorizontalTab";
+import VerticalTab from "../tab-component/VerticalTab";
 import Tablecomponent from "../table-component/TableComponent";
 
 class TopNav extends Component {
@@ -40,6 +42,8 @@ class TopNav extends Component {
             <Route path="/list" element={<Listcomponent />} />
             <Route path="/modal" element={<Modalcomponent />} />
             <Route path="/table-component" element={<Tablecomponent />} />
+            <Route path="/horizontal-tab" element={<Horizontaltab />} />
+            <Route path="/vertical-tab" element={<VerticalTab />} />
           </Routes>
         </Router>
       </Fragment>
