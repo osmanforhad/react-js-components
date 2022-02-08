@@ -5,6 +5,7 @@ import CardComponent from "../card-component/CardComponent";
 import Offcanvas from "../offcanvas-component/OffCanvas";
 import Navigation from "../navigation/Navigation";
 import SpinnerComponent from "../spinner-component/SpinnerComponent";
+import FormComponent from "../form-component/FormComponent";
 
 class TopNav extends Component {
   render() {
@@ -17,6 +18,7 @@ class TopNav extends Component {
             <Route path="card-component" element={<CardComponent />} />
             <Route path="off-canvas" element={<Offcanvas />} />
             <Route path="spinner" element={<SpinnerComponent />} />
+            <Route path="form" element={<FormComponent />} />
           </Routes>
         </Router>
       </Fragment>
