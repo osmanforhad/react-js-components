@@ -20,6 +20,8 @@ import VerticalTab from "../tab-component/VerticalTab";
 import Tablecomponent from "../table-component/TableComponent";
 import TooltipComponent from "../tooltip-component/TooltipComponent";
 
+import SpinnerComponent from "../spinner-component/SpinnerComponent";
+
 class TopNav extends Component {
   render() {
     return (
@@ -46,6 +48,7 @@ class TopNav extends Component {
             <Route path="/horizontal-tab" element={<Horizontaltab />} />
             <Route path="/vertical-tab" element={<VerticalTab />} />
             <Route path="/tooltip" element={<TooltipComponent />} />
+            <Route path="spinner" element={<SpinnerComponent />} />
           </Routes>
         </Router>
       </Fragment>
