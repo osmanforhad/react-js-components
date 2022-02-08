@@ -5,6 +5,7 @@ import AcordionComponent from "../accordion-component/AcordionComponent";
 import AlertComponentasWarning from "../alert-component/AlertComponentasWarning";
 import Successalertcomponent from "../alert-component/SuccessAlertComponent";
 import Bandagecomponent from "../badage-component/BandageComponent";
+import BreadcrumbComponent from "../breadcrumb-component/BreadcrumbComponent";
 import CardComponent from "../card-component/CardComponent";
 import Offcanvas from "../offcanvas-component/OffCanvas";
 import Navigation from "../navigation/Navigation";
@@ -26,6 +27,7 @@ class TopNav extends Component {
               element={<AlertComponentasWarning />}
             />
             <Route path="/success-alert" element={<Successalertcomponent />} />
+            <Route path="/bred-crumb" element={<BreadcrumbComponent />} />
           </Routes>
         </Router>
       </Fragment>
