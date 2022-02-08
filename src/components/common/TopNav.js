@@ -13,8 +13,6 @@ import Figurecomponent from "../figure-component/FigureComponent";
 import Listcomponent from "../list-component/ListComponent";
 import Modalcomponent from "../modal-component/ModalComponent";
 import Navigation from "../navigation/Navigation";
-import FigureComponent from "../figure-component/FigureComponent";
-import ListComponent from "../list-component/ListComponent";
 import Horizontaltab from "../tab-component/HorizontalTab";
 import VerticalTab from "../tab-component/VerticalTab";
 import Tablecomponent from "../table-component/TableComponent";
